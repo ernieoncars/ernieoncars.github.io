@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  background-image: url(img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #000080;
+  width: 100%;
+  padding: 20px;
+}
+
+.about {
+  background-image: url("img/ernie.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fakeimg2 {
+
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header" style="height:330px;" "width: 100vh">
+
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>FORD RANGER</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg2" style="height:00px;"></div>
+      <img src="img/01-2019-Ford-Ranger.jpg" style="height: 500px" "width: auto">
+      <p>2019 FORD RANGER REVIEW</p>
+      <p>After an eight-year hiatus, the Ford Ranger returns to the Ford model range<br> in for the 2019 model year, with the first example rolling off the assembly <br> line at Michigan Assembly Plant in October 22, 2018. The revived Ranger is the<br> global Ranger T6, adapted slightly to accommodate American government <br>regulations. Similar in size to the Ford Explorer Sport Trac, the 2019 Ranger is<br> the first generation produced as a mid-size pickup for the North American <br>market. The Ranger is sold in two configurations, SuperCab (2+2 door extended <br>cab with 6-foot bed) and SuperCrew (4-door crew cab with 5-foot bed); the <br>two-door standard cab is not produced for North American sale. Specs to cater <br>for the African markets are currently being worked upon and should be expected <br>from mid 2019.</p>
+      <p></p>
+      <p>As the 1983-2012 Ranger served as a basis for several Ford/Mercury/Mazda <br>vehicles during its production, the current mid-size Ranger will serve as the<br> basis for the revived Ford Bronco (slated for a 2020 introduction).</p>
+
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg2" style="height:00px;"></div>
+      <img src="img/2019Hyundai.jpeg" style="height: 500px">
+
+      <p>Hyundai Tucson</p>
+    <P>The refreshed 2019 Hyundai Tucson made its debut at the 2018 New York auto show <br>with more power and additional active driver assist features. The updated compact <br>crossover now sports Hyundai's new cascading grille flanked by reshaped headlights. <br>The 2019 Tucson's lower front fascia has been updated too, featuring new fog lights, and <br>the rear features revised taillights. New 17-, 18-, and 19-inch alloy wheels will come <br>standard depending on the trim level.<P>
+    <p>Despite this update being a mid-cycle refresh instead of a full redesign, the 2019 <br>Hyundai Tucson's interior got a major update. Replacing the outgoing car's interior more <br>horizontal layout is a floating touchscreen similar to the one found in recent Hyundai <br>vehicles such as the Elantra GT, Kona, and Santa Fe. The more conventional instrument <br>cluster features two analog gauges and a small display in between. Even the button <br>layout on the center console has been changed thanks to the addition of an electronic <br>parking brake that is standard on all models. The 2019 Tucson's air vents have been <br>changed and the leather seats have a new design.</p>
+    <p>Under the hood, the SE and Value grades will feature a 2.0-liter I-4 that's estimated to make <br>the same 164 hp and 151 lb-ft of torque as the outgoing base models. SEL, Sport, and <br>Limited models will have a 2.4-liter I-4 projected to generate 181 hp and 175 lb-ft, <br>replacing the 175-hp, 195-lb-ft 1.6-liter turbo-four. A six-speed automatic transmission <br>will be the only gearbox available on the 2019 Tucson, as the seven-speed dual-clutch <br>unit will no longer be offered.</p>
+    <p>All 2019 Tucsons will come standard with a 7.0-inch touchscreen, Apple CarPlay and <br>Android Auto, forward collision warning, automatic emergency braking, pedestrian <br>detection, and lane keeping assist. Available options include automatic high beams, <br>adaptive cruise control, a multi-camera Around View Monitor system, driver attention <br>warning, wireless phone charging, a rear-seat USB port for charging, and rain-sensing wipers.</p>
+<p>When it goes on sale this fall, the refreshed 2019 Tucson will be the fifth new or significantly <br>revised crossover Hyundai is introducing by 2020. One of those yet-to-be-introduced <br>models is an all-new three-row model with seating for up to eight passengers that will <br>slot above the 2019 Santa Fe.</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="about" style= "width: 200PX;" "height: 200PX;"></div>
+      <p>Ernie on Cars is your first-stop turn for the most comprehensive, independent reviews of new cars. Our team of automotive journalists continually review all new models to ensure you choose the best vehicle for your specific needs – whether it is people carriers(MPVs), SUVs, utility cars, salons and family cars, project vehicles, trucks, eco-friendly run-arounds or luxury cars. </p>
+     <p>With a unique monthly website audience of over 5,000 and over a thousand followers on social media, Ernie on Cars is fast becoming Nigeria’s leading, content only, automotive blog. </p>
+      <p>Ernie on Cars produces over 15 articles a month. We are working on launching our Youtube Channel for our video contents and weekly podcasts  in our quest to become one of the most prolific multi-channel publishers of new car content. </p>
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
